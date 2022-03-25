@@ -13,10 +13,10 @@
     width: 90%;
     max-width: 400px;
     padding: 28px;
-    background-color: #ffc700;
-    font-family: mortise, Arial, sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
+    background-color: #ffc700 !important;
+    font-family: mortise, Arial, sans-serif !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
     font-weight: 400;
 }
 
@@ -24,11 +24,11 @@
     margin-top: 0;
     margin-bottom: .4em;
     padding-right: 28px;
-    font-family: tenon, Arial, sans-serif;
-    font-size: 1.6rem;
-    line-height: 1.1;
-    font-weight: 700;
-    letter-spacing: -.01em;
+    font-family: tenon, Arial, sans-serif !important;
+    font-size: 1.6rem !important;
+    line-height: 1.1 !important;
+    font-weight: 700 !important;
+    letter-spacing: -.01em !important;
 }
 
 .rango-notice_button {
@@ -38,14 +38,14 @@
     margin-right: 12px;
     padding: 15px 18px;
     border: 2px solid #fff;
-    background-color: #fff;
+    background-color: #fff !important;
     -webkit-transition: border-color .2s cubic-bezier(.25, .46, .45, .94), color .2s cubic-bezier(.165, .84, .44, 1), background-color .2s cubic-bezier(.165, .84, .44, 1);
     transition: border-color .2s cubic-bezier(.25, .46, .45, .94), color .2s cubic-bezier(.165, .84, .44, 1), background-color .2s cubic-bezier(.165, .84, .44, 1);
     font-family: tenon, sans-serif;
-    color: #222;
-    line-height: 1;
-    font-weight: 700;
-    text-align: center;
+    color: #222 !important;
+    line-height: 1 !important;
+    font-weight: 700 !important;
+    text-align: center !important;
     letter-spacing: .01em;
     text-decoration: none;
     text-transform: uppercase;
@@ -54,8 +54,8 @@
 }
 
 .rango-notice_button:hover {
-    background-color: transparent;
-    color: #222;
+    background-color: transparent !important;
+    color: #222 !important;
     text-decoration: none;
 }
 
@@ -75,7 +75,7 @@
 
 @media screen and (max-width:767px) {
     .rango-notice_title {
-        font-size: 1.4rem;
+        font-size: 1.4rem !important;
     }
 
     .rango-notice_button {
